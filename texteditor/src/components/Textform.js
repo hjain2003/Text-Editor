@@ -32,7 +32,10 @@ function Textform() {
   }
 
   const savedisplay=()=>{
-    
+    localStorage.setItem("Text",text);
+  }
+  const display=()=>{
+    settext(localStorage.getItem("Text"));
   }
 
   return (
@@ -45,7 +48,8 @@ function Textform() {
           <button id="lowercase" className='btn' title='Convert to loweracase' onClick={lower}><b><img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/lowercase.png"/></b></button>
           <button id="capitalize" className='btn' title='Capitalize each letter' onClick={capitalize}><b>Capitalize</b></button>
           <button id="speech" className='btn' title="text-to-speech" onClick={speak}><b>Speech</b></button>
-          <button id="save" className='btn' title="Save/Display" onClick={savedisplay}><b>Save/Display</b></button>
+          <button id="save" className='btn' title="Save" onClick={savedisplay}><b>Save</b></button>
+          <button id="display" className='btn' title="Display" onClick={display}><b>Display</b></button>
       </div>
       </div>
       </>

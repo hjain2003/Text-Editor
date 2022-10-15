@@ -90,11 +90,11 @@
 {
   margin-top: 10px;
 }
-#capitalize,#speech,#save
+#capitalize,#speech,#save,#display
 {
   height:47px;
 }
-#speech,#save
+#speech,#save,#display
 {
   margin-top: 10px;
 }
