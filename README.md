@@ -5,3 +5,4 @@ A simple text-editor made using react js with functionalities like :
 2) Text to Speech
 3) Save/Display/clear content
 4) Word/Character count
+5) Dark Mode
