@@ -49,6 +49,7 @@ function Textform() {
         color:'white',
         backgroundColor:'black',
       })
+      document.body.style = 'background: purple;';
     }
     else
     {
@@ -56,6 +57,7 @@ function Textform() {
         color:'black',
         backgroundColor:'white',
       })
+      document.body.style = 'background: white;';
     }
 
 
